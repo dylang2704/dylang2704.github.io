@@ -1,0 +1,53 @@
+@media(min-width:500px){
+    .container-1{
+      display:flex;
+     
+    }
+
+	.headers {
+		text-decoration-line: underline;
+		font-family:Helvetica;
+		font-size: 20px;
+		text-shadow: 2px 2px 5px grey;
+		
+	}
+	  
+  .container-1 div,{
+    padding:10px;
+	flex-wrap:wrap;
+	display:flex;
+	justify-content: center;
+  }
+  
+  .box-1{
+    flex:1;
+    order:2;
+	justify-content: center;
+	
+  }
+  
+  .box-2{
+    flex:1;
+    order:1;
+	justify-content: center;
+  }
+  
+  .box-3{
+    flex:1;
+    order: 3;
+	justify-content: center;
+  }
+  
+  li{
+	font-size: 15px;
+	font-family:Helvetica;
+	font-weight: normal;
+  }
+  
+  #centre{
+	  width: 15%;
+	  margin:0 auto;
+  }	
+  
+
+
