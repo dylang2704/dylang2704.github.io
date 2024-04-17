@@ -1,0 +1,41 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Classes</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script src= "subject.js"></script>
+    <!-- <link rel="stylesheet" href="styles/style.css" > -->	
+ 
+</head>
+
+</head>
+<body class="bg-light">
+    <div id="header" class="container-fluid"></div>
+    <div class="container d-flex justify-content-center my-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="headings mb-4 text-center">This is a Grade Calculator App</h1>
+                    <form id="gradesForm" class="needs-validation" onsubmit="grades(); return false;">
+                        <div class="form-group">
+                            <label for="numSubjects">Enter the number of subjects you take:</label>
+                            <input type="number" class="form-control" id="numSubjects" required>
+                        </div>
+                        <div id="marksInputs"></div>
+                        <div class="text-center mb-4">
+                            <button type="submit" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </form>
+                    <div id="results" class="card mt-4" style="display: none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Results</h5>
+                            <div id="resultsContent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
